@@ -2,4 +2,73 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", serif;
+}
+
+/* Layout */
+
+body {
+    display: grid;
+    grid-template-columns: 1em 1fr 1em;
+    grid-template-areas:
+        ".... .... ...." 
+        ".... head ...."
+        ".... main ...."
+        ".... foot ...."
+        ".... .... ....";
+    gap: 1em 0;
+}
+
+header {
+    width: 414px;
+    height: 59px;
+}
+
+.site-header {
+    grid-area: head;
+}
+
+.logo {
+    width: 140px;
+    height: 23.16px;
+}
+
+.logo img {
+    width: 23.16px;
+    height: 23.16px;
+}
+
+.logo h1 {
+    width: 113.75px;
+    height: 15px;
+    font-family: "Roboto", serif;
+    font-size: 13.55px;
+    font-weight: 700;
+    line-height: 14.66px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.header-nav {
+}
+
+footer {
+    grid-area: foot;
+}
+
+main {
+    grid-area: main;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "tech"
+        "envi"
+        "nasa"
+        "phys"
+        "heal";     
 }
