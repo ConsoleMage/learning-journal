@@ -16,7 +16,7 @@ body {
         ".... main ...."
         ".... foot ...."
         ".... .... ....";
-    gap: 1em 0;
+    gap: 1em 1em;
 }
 
 header {
@@ -60,7 +60,7 @@ header {
 nav li {
     display: inline;
     list-style-type: none;
-    margin-left: 20px;
+    margin-left: 2.25em;
 }
 
 .header-nav {
