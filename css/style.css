@@ -5,19 +5,18 @@ body {
     font-family: "Source Sans 3", serif;
 }
 
-/* Layout */
-
 body {
     display: grid;
     grid-template-columns: 1em 1fr 1em;
     grid-template-areas:
         ".... head ...." 
-        ".... .... ...."
         ".... main ...."
         ".... foot ...."
         ".... .... ....";
     gap: 1em 1em;
 }
+
+/* Header */
 
 header {
     width: 25.875rem;
@@ -63,15 +62,8 @@ nav li {
     margin-left: 2.25em;
 }
 
-.header-nav {
-}
 
-@media (min-width: 480px) {
-}
-
-footer {
-    grid-area: foot;
-}
+/* Main */
 
 main {
     grid-area: main;
@@ -79,9 +71,41 @@ main {
     gap: 1em;
     grid-template-columns: 1fr;
     grid-template-areas: 
-        "tech"
+        "hero"
         "envi"
         "nasa"
         "phys"
         "heal";     
+}
+
+/* Hero */
+
+.hero-post {
+    grid-area: hero;
+    width: 100%;
+    height: 18.313rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Footer */
+
+footer {
+    grid-area: foot;
+}
+
+
+/* Typography */
+
+/* Media Query */
+@media (min-width: 480px) {
 }
