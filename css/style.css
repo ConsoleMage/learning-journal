@@ -104,6 +104,34 @@ main {
     color: white;
 }
 
+.hero-date {
+    width: 23.375rem;
+    height: 0.9375rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.9425rem;
+    text-align: left;
+}
+
+.hero-header {
+    width: 23.375rem;
+    height: 4.375rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2.16375rem;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.hero-text {
+    width: 23.375rem;
+    height: 5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.257rem;
+    text-align: left;
+}
+
 /* Footer */
 
 footer {
