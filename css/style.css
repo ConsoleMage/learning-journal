@@ -113,15 +113,16 @@ main {
     text-align: left;
 }
 
-.hero-header {
-    width: 23.375rem;
-    height: 4.375rem;
-    font-size: 1.2rem;
+.hero-header h1 {
+    width: 23.375rem; 
+    height: 4.375rem; 
+    font-size: 2rem; 
+    line-height: 2.16375rem; 
+    letter-spacing: -0.001875rem; 
     font-weight: 700;
-    line-height: 2.16375rem;
-    letter-spacing: -0.03em;
     text-align: left;
-}
+  }
+  
 
 .hero-text {
     width: 23.375rem;
