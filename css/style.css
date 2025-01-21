@@ -11,8 +11,8 @@ body {
     display: grid;
     grid-template-columns: 1em 1fr 1em;
     grid-template-areas:
-        ".... .... ...." 
-        ".... head ...."
+        ".... head ...." 
+        ".... .... ...."
         ".... main ...."
         ".... foot ...."
         ".... .... ....";
@@ -20,14 +20,16 @@ body {
 }
 
 header {
-    width: 414px;
-    height: 59px;
+    width: 25.875rem;
+    height: 3.688rem;
 }
 
 .site-header {
     display: flex;
-    align-items: center;
     grid-area: head;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -58,6 +60,7 @@ header {
 nav li {
     display: inline;
     list-style-type: none;
+    margin-left: 20px;
 }
 
 .header-nav {
