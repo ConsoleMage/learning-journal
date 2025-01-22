@@ -189,6 +189,7 @@ main {
     font-weight: 700;
     line-height: 25.97px;
     text-align: left;
+    color: #141414;
 }
 
 .article-text {
@@ -199,10 +200,12 @@ main {
     font-weight: 400;
     line-height: 20px;
     text-align: left;
+    color: #505050;
 }
 
 /* Article-2 */
 .article-listing-2 {
+    margin-top: 100px;
     grid-area: art2;
 }
 /* Footer */
