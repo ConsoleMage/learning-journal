@@ -11,6 +11,7 @@ body {
     grid-template-areas:
         "head" 
         "main"
+        "view"
         "foot";
     gap: 1em 1em;
 }
@@ -18,10 +19,10 @@ body {
 /* Header */
 
 .site-header {
+    grid-area: head;
+    display: flex;
     padding-top: 0.875rem;
     height: 1.688rem;
-    display: flex;
-    grid-area: head;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -236,6 +237,7 @@ main {
 }
 
 /* Article-3 */
+
 .article-listing-3 {
     grid-area: art3;
     text-decoration: none;
@@ -256,6 +258,22 @@ main {
 
 .article-header-3 {
     padding-top: 238px;
+}
+
+/* View More */
+
+.view-more {
+    grid-area: view;
+    margin: 0 auto;
+    text-align: center;
+    width: 23.375rem;
+    height: 1.25rem;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: #000000;
 }
 
 /* Footer */
