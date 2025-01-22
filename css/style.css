@@ -18,8 +18,8 @@ body {
 /* Header */
 
 .site-header {
-    padding-top: 10px;
-    height: 2.688rem;
+    padding-top: 0.875rem;
+    height: 1.688rem;
     display: flex;
     grid-area: head;
     width: 100%;
@@ -29,16 +29,16 @@ body {
 
 .logo {
     display: flex;
-    margin-left: 10px;
+    margin-left: 0.625rem;
     align-items: center;
-    width: 150px;
-    height: 23.16px;
+    width: 9.375rem;
+    height: 1.448rem;
 }
 
 .logo img {
-    margin-left: 10px;
-    width: 23.16px;
-    height: 23.16px;
+    margin-left: 0.625rem;
+    width: 1.448rem;
+    height: 1.448rem;
 }
 
 .logo h1 {
@@ -61,6 +61,8 @@ body {
 nav li {
     display: inline;
     list-style-type: none;
+    width: 104px;
+    height: 15px;
     margin-right: 2.25em;
     font-size: 12px;
     font-weight: 600;
