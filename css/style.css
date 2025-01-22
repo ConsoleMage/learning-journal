@@ -18,7 +18,8 @@ body {
 /* Header */
 
 .site-header {
-    height: 3.688rem;
+    padding-top: 10px;
+    height: 2.688rem;
     display: flex;
     grid-area: head;
     width: 100%;
@@ -28,6 +29,7 @@ body {
 
 .logo {
     display: flex;
+    margin-left: 10px;
     align-items: center;
     width: 150px;
     height: 23.16px;
@@ -59,7 +61,11 @@ body {
 nav li {
     display: inline;
     list-style-type: none;
-    margin-right: 3.25em;
+    margin-right: 2.25em;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.08px;
+    text-align: right;
 }
 
 
@@ -89,8 +95,7 @@ main {
     width: 100%;
     position: absolute;
     transform: scaleX(-1);
-    left: -32px;
-    bottom: -30px;
+    bottom: 0;
     z-index: 0;
 }
 
