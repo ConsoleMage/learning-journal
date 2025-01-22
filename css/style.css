@@ -43,16 +43,17 @@ body {
 
 .logo h1 {
     display: inline;
-    padding-left: 4px;
-    width: 113.75px;
-    height: 15px;
+    padding-left: 0.295em;
+    width: 8.395em;
+    height: 1.107em;
     font-family: "Roboto", serif;
-    font-size: 13.55px;
+    font-size: 0.847rem;
     font-weight: 700;
-    line-height: 14.66px;
+    line-height: 1.082em;
     letter-spacing: -0.03em;
     text-align: left;
 }
+
 .nav {
     text-decoration: none;
     color: inherit;
@@ -61,12 +62,12 @@ body {
 nav li {
     display: inline;
     list-style-type: none;
-    width: 104px;
-    height: 15px;
+    width: 8.667em;
+    height: 1.25em;
     margin-right: 2.25em;
     font-size: 12px;
     font-weight: 600;
-    line-height: 15.08px;
+    line-height: 1.257rem;
     text-align: right;
 }
 
