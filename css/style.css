@@ -68,11 +68,11 @@ main {
     grid-area: main;
     display: grid;
     gap: 1em;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1em 1fr 1em;
     grid-template-areas: 
-        "hero"
-        "art1"
-        "art2"
+        "hero hero hero"
+        ".... art1 ...."
+        ".... art2 ...."
 }
 
 /* Hero */
@@ -158,23 +158,23 @@ main {
 
 .article-listing {
     grid-area: art1;
+    margin-top: 20px;
     text-decoration: none;
     color: inherit;
     height: 390px;
 }
 
 .article-image {
-    display: block;
-    margin: 0 auto;
-    width: 374px;
-    height: 232px;
+    border-radius: 0.1875rem;
+    width: 23.375rem;
+    height: 14.5rem;
 }
 
 .article-date {
     margin-bottom: 0;
-    width: 374px;
-    height: 18px;
-    font-size: 14.17px;
+    width: 26.394em;
+    height: 1.27em;
+    font-size: 0.886rem;
     font-weight: 400;
     line-height: 17.82px;
     text-align: left;
@@ -183,11 +183,11 @@ main {
 .article-title {
     margin-top: 8px;
     margin-bottom: 8px;
-    width: 374px;
-    height: 26px;
-    font-size: 24px;
+    width: 15.583em;
+    height: 1.083em;
+    font-size: 1.484rem;
     font-weight: 700;
-    line-height: 25.97px;
+    line-height: 1.082em;
     text-align: left;
     color: #141414;
 }
