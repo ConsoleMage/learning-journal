@@ -9,20 +9,16 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
-        " head " 
-        " main "
-        " foot ";
+        "head" 
+        "main"
+        "foot";
     gap: 1em 1em;
 }
 
 /* Header */
 
-header {
-    width: 25.875rem;
-    height: 3.688rem;
-}
-
 .site-header {
+    height: 3.688rem;
     display: flex;
     grid-area: head;
     width: 100%;
@@ -33,11 +29,12 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    width: 140px;
+    width: 150px;
     height: 23.16px;
 }
 
 .logo img {
+    margin-left: 10px;
     width: 23.16px;
     height: 23.16px;
 }
@@ -54,11 +51,15 @@ header {
     letter-spacing: -0.03em;
     text-align: left;
 }
+.nav {
+    text-decoration: none;
+    color: inherit;
+}
 
 nav li {
     display: inline;
     list-style-type: none;
-    margin-left: 2.25em;
+    margin-right: 3.25em;
 }
 
 
@@ -67,7 +68,6 @@ nav li {
 main {
     grid-area: main;
     display: grid;
-    gap: 1em;
     grid-template-columns: 1em 1fr 1em;
     grid-template-areas: 
         "hero hero hero"
@@ -89,8 +89,8 @@ main {
     width: 100%;
     position: absolute;
     transform: scaleX(-1);
+    left: -32px;
     bottom: -30px;
-    left: -40px;
     z-index: 0;
 }
 
