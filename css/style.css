@@ -261,7 +261,18 @@ main {
 /* Footer */
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     grid-area: foot;
+    width: 414px;
+    height: 105px;
+    background: #202020;
+    color: #D7D7D7;
+}
+
+footer p {
+    margin: 0 auto;
 }
 
 
