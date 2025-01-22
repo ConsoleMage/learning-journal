@@ -7,12 +7,11 @@ body {
 
 body {
     display: grid;
-    grid-template-columns: 1em 1fr 1em;
+    grid-template-columns: 1fr;
     grid-template-areas:
-        ".... head ...." 
-        ".... main ...."
-        ".... foot ...."
-        ".... .... ....";
+        " head " 
+        " main "
+        " foot ";
     gap: 1em 1em;
 }
 
@@ -161,6 +160,7 @@ main {
     grid-area: art1;
     text-decoration: none;
     color: inherit;
+    height: 390px;
 }
 
 .article-image {
@@ -180,9 +180,9 @@ main {
     text-align: left;
 }
 
-.article-header h1 {
-    margin-top: 0;
-    margin-bottom: 0;
+.article-title {
+    margin-top: 8px;
+    margin-bottom: 8px;
     width: 374px;
     height: 26px;
     font-size: 24px;
@@ -204,10 +204,25 @@ main {
 }
 
 /* Article-2 */
+
 .article-listing-2 {
-    margin-top: 100px;
     grid-area: art2;
+    text-decoration: none;
+    color: inherit;
 }
+
+.article-header h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 374px;
+    height: 26px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25.97px;
+    text-align: left;
+    color: #141414;
+}
+
 /* Footer */
 
 footer {
