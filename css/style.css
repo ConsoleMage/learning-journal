@@ -196,7 +196,9 @@ main {
 }
 
 /* Article-2 */
-
+.article-listing-2 {
+    grid-area: art2;
+}
 /* Footer */
 
 footer {
