@@ -313,7 +313,14 @@ footer p {
 /* Media Query */
 @media (min-width: 480px) {
     body {
+        margin: 0 auto;
         max-width: 1085px;
+    }
+    .site-header {
+        width: 98%;
+    }
+    .logo {
+        padding-left: 24px;
     }
     main {
         grid-template-columns: 1em 1fr 1fr 1fr 1em;
