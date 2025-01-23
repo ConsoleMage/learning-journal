@@ -80,20 +80,28 @@ main {
     grid-template-columns: 1em 1fr 1em;
     gap: 1em 0;
     grid-template-areas:
-        "hero hero hero"
+        ".... hero ...."
+        ".... view ...."
         ".... art1 ...."
         ".... art2 ...."
         ".... art3 ....";
 }
 
+/* View */
+.view-post {
+    grid-area: view;
+}
+
 /* Hero */
 
 .hero-post {
+    margin-top: 250px;
     grid-area: hero;
     width: 100%;
-    height: 18.313rem;
     overflow: hidden;
     position: relative;
+    height: 11.938rem;
+    border-radius: 0.188rem;
 }
 
 .hero-image {
@@ -115,7 +123,7 @@ main {
     z-index: 1;
 }
 
-.hero-post header {
+.hero-header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -123,7 +131,7 @@ main {
     position: absolute;
     top: 0%;
     left: 0%;
-    color: white;
+    color: #151515;
 }
 
 .hero-date {
@@ -139,8 +147,8 @@ main {
 }
 
 .hero-header h1 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 23.375rem;
     height: 4.375rem;
     font-size: 2rem;
