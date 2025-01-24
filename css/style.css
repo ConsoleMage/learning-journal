@@ -314,8 +314,9 @@ footer p {
     }
 
     ul {
-        margin-right: 28px; 
+        margin-right: 28px;
     }
+
     main {
         grid-template-columns: 1em 1fr 1fr 1fr 1em;
         gap: 1em 1em;
@@ -341,7 +342,7 @@ footer p {
         width: 100vw;
         max-width: 1085px;
     }
-    
+
     .hero-header {
         margin-top: 240px;
         margin-left: 2rem;
@@ -351,7 +352,7 @@ footer p {
         max-width: 657px;
         width: 100vw;
     }
-    
+
     .hero-text {
         max-width: 614.84px;
         width: 100vw;
