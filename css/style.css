@@ -101,7 +101,7 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensures the image covers the entire container */
-    object-position: bottom; /* Positions the image to show the bottom part */
+    object-position: bottom;
     position: absolute;
 }
 
@@ -332,7 +332,7 @@ footer p {
     }
 
     .hero-image {
-        overflow: visible;
+        object-position: 50% 74%;
     }
 
     .hero-post {
