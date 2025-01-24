@@ -76,7 +76,7 @@ nav li {
 main {
     grid-area: main;
     display: grid;
-    grid-template-columns: 1em 1fr 1em;
+    grid-template-columns: 1em 2em 1fr 2em 1em;
     gap: 1em 0;
     grid-template-areas:
         ".... htex ...."
@@ -93,7 +93,7 @@ main {
 .view-post {
     grid-area: view;
     width: 100%;
-    height: 440px;
+    height: 100%;
 }
 
 .view-post h2 {
@@ -115,7 +115,6 @@ main {
 .hero-post {
     grid-area: hero;
     width: 100%;
-    height: 191px;
     border-radius: 0.188rem;
     overflow: hidden;
     position: relative;
@@ -138,39 +137,35 @@ main {
 }
 
 .hero-date {
-    margin-top: 5.25rem;
+    margin-top: 2.25rem;
     margin-bottom: 0.5rem;
-    width: 23.375rem;
-    height: 0.9375rem;
+    width: 100%;
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 0.9425rem;
     text-align: left;
-    z-index: 2;
 }
 
 .hero-header h1 {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 23.375rem;
-    height: 4.375rem;
+    width: 100%;
+    height: 100%;
     font-size: 2rem;
     line-height: 2.16375rem;
     letter-spacing: -0.001875rem;
     font-weight: 700;
     text-align: left;
-    z-index: 3;
 }
 
 .hero-text {
     margin-top: 0.5rem;
-    width: 23.375rem;
-    height: 5rem;
+    width: 100%;
+    height: 100%;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.257rem;
     text-align: left;
-    z-index: 4;
 }
 
 /* Common */
@@ -321,7 +316,7 @@ footer p {
 /* Typography */
 
 /* Media Query */
-/* @media (min-width: 480px) {
+@media (min-width: 480px) {
     body {
         margin: 0 auto;
         max-width: 1085px;
@@ -336,14 +331,14 @@ footer p {
     }
 
     main {
-        grid-template-columns: 1em 1fr 1fr 1fr 1em;
+        grid-template-columns: 1em 2em 1fr 1fr 1fr 2em 1em;
         gap: 1em 0;
         grid-template-areas:
-            ".... htex htex htex ...."
-            ".... hero hero hero ...."
-            ".... view view view ...."
-            ".... more more more ...."
-            ".... art1 art2 art3 ....";
+            ".... .... htex htex htex .... ...."
+            ".... hero hero hero hero hero ...."
+            ".... .... view view view .... ...."
+            ".... more more more more more ...."
+            ".... .... art1 art2 art3 .... ....";
     }
 
     .article-listing-1 {
@@ -353,7 +348,7 @@ footer p {
     .hero-post {
         max-width: 979px;
         min-height: 488px;
-        width: 100vw;
+        width: 100%;
     }
 
     .hero-image {
@@ -378,4 +373,4 @@ footer p {
         margin-top: 6px;
         width: 100%;
     }
-} */
+}
