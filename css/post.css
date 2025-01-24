@@ -316,6 +316,7 @@ footer p {
 /* Typography */
 
 /* Media Query */
+
 @media (min-width: 480px) {
     body {
         margin: 0 auto;
