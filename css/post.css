@@ -12,7 +12,7 @@ body {
         "head"
         "main"
         "foot";
-    gap: 1em 1em;
+    gap: 1em 0;
 }
 
 /* Header */
@@ -335,14 +335,14 @@ footer p {
     }
 
     main {
-        grid-template-columns: 1em 2em 1fr 1fr 1fr 2em 1em;
+        grid-template-columns: 1em 1fr 1fr 1fr 1em;
         gap: 1em 0;
         grid-template-areas:
-            ".... .... htex htex htex .... ...."
-            ".... hero hero hero hero hero ...."
-            ".... .... view view view .... ...."
-            ".... more more more more more ...."
-            ".... .... art1 art2 art3 .... ....";
+            ".... htex htex htex ...."
+            ".... hero hero hero ...."
+            ".... view view view ...."
+            ".... more more more ...."
+            ".... art1 art2 art3 ....";
     }
 
     .article-listing-1,
@@ -355,19 +355,12 @@ footer p {
     }
 
     .hero-post {
-        height: auto;
-        max-width: auto;
-        min-height: 488px;
         width: 100%;
     }
 
     .hero-image {
         height: 40vh;
         object-position: 50% 70%;
-    }
-
-    .hero-header {
-        height: 25%;
     }
 
     .hero-date {
