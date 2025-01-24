@@ -13,7 +13,7 @@ body {
         "main"
         "view"
         "foot";
-    gap: 1em 1em;
+    gap: 0 1em;
 }
 
 /* Header */
@@ -21,7 +21,7 @@ body {
 .site-header {
     grid-area: head;
     display: flex;
-    padding-top: 0.875rem;
+    margin-top: 14px;
     height: 1.688rem;
     width: 100%;
     justify-content: space-between;
@@ -88,7 +88,9 @@ main {
         ".... art5 ...."
         ".... art6 ....";
 }
+
 /* Hero Post Container */
+
 .hero-post {
     grid-area: hero;
     position: relative;
@@ -100,7 +102,7 @@ main {
 .hero-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire container */
+    object-fit: cover;
     object-position: bottom;
     position: absolute;
 }
@@ -109,7 +111,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 16px;
+    margin-top: 240px;
     margin-left: 8px;
     color: white;
 }
@@ -131,7 +133,7 @@ main {
     margin-top: 0;
     margin-bottom: 0;
     width: 23.375rem;
-    height: 4.375rem;
+    height: 100%;
     font-size: 2rem;
     line-height: 2.16375rem;
     letter-spacing: -0.001875rem;
@@ -247,10 +249,9 @@ main {
 
 .view-more {
     grid-area: view;
-    margin: 0 auto;
+    margin: -52px auto 34px;
     text-align: center;
     width: 23.375rem;
-    height: 1.25rem;
     font-size: 16px;
     font-weight: 700;
     line-height: 20.11px;
