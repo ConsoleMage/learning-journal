@@ -97,6 +97,7 @@ main {
     height: 293px;
     width: 100%;
     overflow: hidden;
+    margin-top: 12px;
 }
 
 .hero-image {
@@ -248,7 +249,7 @@ main {
 
 .view-more {
     grid-area: view;
-    margin: -52px auto 34px;
+    margin: -20px auto 34px;
     text-align: center;
     width: 23.375rem;
     font-size: 16px;
