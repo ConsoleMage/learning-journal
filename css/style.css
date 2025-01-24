@@ -91,43 +91,6 @@ main {
 
 /* Hero */
 
-.hero-post {
-    grid-area: hero;
-    width: 100%;
-    height: 18.313rem;
-    overflow: hidden;
-    position: relative;
-}
-
-.hero-image {
-    width: 100%;
-    position: absolute;
-    transform: scaleX(-1);
-    bottom: 0;
-    z-index: 0;
-}
-
-.hero-post::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-}
-
-.hero-post header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-left: 1rem;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    color: white;
-}
 
 .hero-date {
     margin-top: 5.25rem;
@@ -138,7 +101,7 @@ main {
     font-weight: 400;
     line-height: 0.9425rem;
     text-align: left;
-    z-index: 2;
+    z-index: 3; /* Ensure date is above the header */
 }
 
 .hero-header h1 {
@@ -151,7 +114,7 @@ main {
     letter-spacing: -0.001875rem;
     font-weight: 700;
     text-align: left;
-    z-index: 3;
+    z-index: 4; /* Ensure h1 is above the date */
 }
 
 .hero-text {
@@ -162,7 +125,7 @@ main {
     font-weight: 400;
     line-height: 1.257rem;
     text-align: left;
-    z-index: 4;
+    z-index: 5; /* Ensure text is above the h1 */
 }
 
 /* Common */
@@ -332,6 +295,7 @@ footer p {
         grid-template-columns: 1em 1fr 1fr 1fr 1em;
         gap: 1em 1em;
         grid-template-areas:
+            "head head head head head"
             ".... hero hero hero ...."
             ".... art1 art2 art3 ...."
             ".... art4 art5 art6 ...."
