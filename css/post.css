@@ -92,7 +92,7 @@ main {
 /* View */
 .view-post {
     grid-area: view;
-    width: 374px;
+    width: 100%;
     height: 440px;
 }
 
