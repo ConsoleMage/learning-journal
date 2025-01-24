@@ -88,47 +88,10 @@ main {
         ".... art3 ....";
 }
 
-/* View */
-
-.view-post {
-    grid-area: view;
-    width: 100%;
-    height: 100%;
-}
-
-.view-post h2 {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20.11px;
-    text-align: left;
-}
-
-.view-post p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.11px;
-    text-align: left;
-}
-
-/* Hero */
-
-.hero-post {
-    grid-area: hero;
-    width: 100%;
-    border-radius: 0.188rem;
-    overflow: hidden;
-    position: relative;
-}
-
-.hero-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 90%;
-}
+/* htex */
 
 .hero-header {
+    width: 100%;
     grid-area: htex;
     display: flex;
     flex-direction: column;
@@ -167,6 +130,47 @@ main {
     line-height: 1.257rem;
     text-align: left;
 }
+
+/* Hero */
+
+.hero-post {
+    grid-area: hero;
+    width: 100%;
+    border-radius: 0.188rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+    object-position: 50% 90%;
+}
+
+/* View */
+
+.view-post {
+    grid-area: view;
+    width: 100%;
+    height: 100%;
+}
+
+.view-post h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+}
+
+.view-post p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    text-align: left;
+}
+
+
 
 /* Common */
 
@@ -352,13 +356,15 @@ footer p {
     }
 
     .hero-post {
+        height: auto;
         max-width: auto;
         min-height: 488px;
         width: 100%;
     }
 
     .hero-image {
-        object-position: 50% 80%;
+        height: 40vh;
+        object-position: 50% 70%;
     }
 
     .hero-header {
