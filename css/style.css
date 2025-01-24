@@ -332,4 +332,9 @@ footer p {
         overflow: visible;
     }
 
+    .hero-post {
+        height: 50vh;
+        width: 100vw;
+        max-width: 1085px;
+    }
 }
