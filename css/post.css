@@ -352,7 +352,7 @@ footer p {
     }
 
     .hero-post {
-        max-width: 979px;
+        max-width: auto;
         min-height: 488px;
         width: 100%;
     }
