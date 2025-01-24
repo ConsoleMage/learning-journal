@@ -342,8 +342,13 @@ footer p {
             ".... .... art1 art2 art3 .... ....";
     }
 
-    .article-listing-1 {
-        margin-top: 0;
+    .article-listing-1,
+    .article-listing-2 {
+        margin-right: 1em;
+    }
+
+    .article-text {
+        width: 100%;
     }
 
     .hero-post {
