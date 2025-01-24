@@ -305,19 +305,22 @@ footer p {
     }
 
     .site-header {
-        width: 98%;
+        max-width: 1085px;
     }
 
     .logo {
         padding-left: 24px;
     }
 
+    ul {
+        margin-right: 28px; 
+    }
     main {
         grid-template-columns: 1em 1fr 1fr 1fr 1em;
         gap: 1em 1em;
         grid-template-areas:
             "head head head head head"
-            ".... hero hero hero ...."
+            "hero hero hero hero hero"
             ".... art1 art2 art3 ...."
             ".... art4 art5 art6 ...."
             "view view view view view"
@@ -336,5 +339,15 @@ footer p {
         height: 50vh;
         width: 100vw;
         max-width: 1085px;
+    }
+
+    .hero-header h1 {
+        max-width: 657px;
+        width: 100vw;
+    }
+    
+    .hero-text {
+        max-width: 614.84px;
+        width: 100vw;
     }
 }
