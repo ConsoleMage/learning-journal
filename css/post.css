@@ -91,7 +91,6 @@ main {
 /* htex */
 
 .hero-header {
-    width: 100%;
     grid-area: htex;
     display: flex;
     flex-direction: column;
