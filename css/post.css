@@ -11,7 +11,6 @@ body {
     grid-template-areas:
         "head"
         "main"
-        "view"
         "foot";
     gap: 1em 1em;
 }
@@ -90,6 +89,7 @@ main {
 }
 
 /* View */
+
 .view-post {
     grid-area: view;
     width: 100%;
@@ -113,7 +113,6 @@ main {
 /* Hero */
 
 .hero-post {
-    border: 2px solid red;
     grid-area: hero;
     width: 100%;
     height: 191px;
@@ -322,7 +321,7 @@ footer p {
 /* Typography */
 
 /* Media Query */
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
     body {
         margin: 0 auto;
         max-width: 1085px;
@@ -379,4 +378,4 @@ footer p {
         margin-top: 6px;
         width: 100%;
     }
-}
+} */
