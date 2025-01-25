@@ -334,7 +334,7 @@ footer p {
 
     main {
         grid-template-columns: 1em 1fr 1fr 1fr 1em;
-        gap: 1em 0;
+        gap: 1em 1em;
         grid-template-areas:
             ".... htex htex htex ...."
             ".... hero hero hero ...."
@@ -344,11 +344,8 @@ footer p {
     }
 
     .article-listing-1,
-    .article-listing-2 {
-        margin-right: 1em;
-    }
-
-    .article-text {
+    .article-listing-2,
+    .article-listing-3 {
         width: 100%;
     }
 
