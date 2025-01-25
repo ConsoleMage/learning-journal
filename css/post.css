@@ -335,6 +335,10 @@ footer p {
         padding-left: 24px;
     }
 
+    ul {
+        margin-right: 28px;
+    }
+
     main {
         grid-template-columns: 1em 1fr 1fr 1fr 1em;
         gap: 1em 1em;
