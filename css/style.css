@@ -21,11 +21,15 @@ body {
 .site-header {
     grid-area: head;
     display: flex;
-    margin-top: 14px;
+    margin: 0 auto; /* Remove any top margin */
+    padding: 1em 0 1em;
     height: 1.688rem;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
 }
 
 .logo {
