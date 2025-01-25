@@ -21,7 +21,7 @@ body {
 .site-header {
     grid-area: head;
     display: flex;
-    margin: 0 auto; /* Remove any top margin */
+    margin: 0 auto;
     padding: 1em 0 1em;
     height: 1.688rem;
     width: 100%;
