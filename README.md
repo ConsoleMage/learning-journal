@@ -2,7 +2,7 @@
 
 A learning journal solo project, done from scratch on Scrimba :D
 
-![Screenshot_25-1-2025_102410_stunning-cocada-9fefd9 netlify app](https://github.com/user-attachments/assets/22b6db8a-285c-4311-9ac2-1bf093338ef1)
+![Screenshot_25-1-2025_102548_stunning-cocada-9fefd9 netlify app](https://github.com/user-attachments/assets/12bf2a35-4548-498a-bd7d-d9e9d165e7ea)
 
 ### DEMO
 https://stunning-cocada-9fefd9.netlify.app/
