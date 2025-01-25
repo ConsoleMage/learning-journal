@@ -12,7 +12,6 @@ body {
         "head"
         "main"
         "foot";
-    gap: 1em 0;
 }
 
 /* Header */
@@ -329,7 +328,7 @@ footer p {
     }
 
     .site-header {
-        width: 98%;
+        max-width: 1085px;
     }
 
     .logo {
