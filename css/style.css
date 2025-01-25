@@ -326,12 +326,10 @@ footer p {
         grid-template-columns: 1em 1fr 1fr 1fr 1em;
         gap: 1em 1em;
         grid-template-areas:
-            "head head head head head"
             "hero hero hero hero hero"
             ".... art1 art2 art3 ...."
             ".... art4 art5 art6 ...."
-            "view view view view view"
-            "foot foot foot foot foot";
+            "view view view view view";
     }
 
     .article-listing-1 {
