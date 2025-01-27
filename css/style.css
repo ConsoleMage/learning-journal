@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Source Sans 3", serif;
+    font-weight: 400;
 }
 
 body {
@@ -55,7 +56,6 @@ body {
     font-weight: 700;
     line-height: 1.082em;
     letter-spacing: -0.03em;
-    text-align: left;
 }
 
 .nav {
@@ -127,9 +127,7 @@ main {
     width: 100%;
     height: 0.9375rem;
     font-size: 0.75rem;
-    font-weight: 400;
     line-height: 0.9425rem;
-    text-align: left;
 }
 
 .hero-header h1 {
@@ -141,7 +139,6 @@ main {
     line-height: 2.16375rem;
     letter-spacing: -0.001875rem;
     font-weight: 700;
-    text-align: left;
 }
 
 .hero-text {
@@ -149,9 +146,7 @@ main {
     width: 96%;
     height: 5rem;
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1.257rem;
-    text-align: left;
 }
 
 /* Common */
@@ -220,9 +215,7 @@ main {
     width: 100%;
     height: 1.27em;
     font-size: 0.886rem;
-    font-weight: 400;
     line-height: 1.273em;
-    text-align: left;
 }
 
 .article-title {
@@ -233,7 +226,6 @@ main {
     font-size: 1.484rem;
     font-weight: 700;
     line-height: 1.082em;
-    text-align: left;
     color: #141414;
 }
 
@@ -242,9 +234,7 @@ main {
     width: 100%;
     height: 3.75em;
     font-size: 1rem;
-    font-weight: 400;
     line-height: 1.25em;
-    text-align: left;
     color: #505050;
 }
 
@@ -274,6 +264,7 @@ footer {
     height: 105px;
     background: #202020;
     color: #D7D7D7;
+    text-align: center;
 }
 
 footer p {
@@ -287,16 +278,13 @@ footer p {
     font-weight: 700;
     line-height: 12.98px;
     letter-spacing: -0.03em;
-    text-align: center;
 }
 
 .footer-copy {
     width: 109px;
     height: 15px;
     font-size: 12px;
-    font-weight: 400;
     line-height: 15px;
-    text-align: center;
 }
 
 /* Media Query */
